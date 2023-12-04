@@ -14,3 +14,7 @@ Cada Hostel contém informações essenciais sobre suas instalações, represent
 A classe Pessoa é uma entidade abstrata, sendo a base para dois papéis fundamentais no sistema: Cliente e Funcionario. Os clientes são aqueles que desfrutam dos serviços dos hostels, enquanto os funcionários desempenham funções cruciais na operação do sistema.
 
 Para gerenciar as diferentes responsabilidades dos funcionários, introduzimos a classe Cargo, que determina se um funcionário é um gerente ou um colaborador regular. Além disso, o cargo especifica o salário e os acessos associados.
+
+A segurança do sistema é garantida pela classe Usuario, responsável pelo controle de acesso. Cada pessoa tem um nome de usuário e uma senha exclusivos para garantir a autenticação adequada.
+
+Por fim, o processo de pagamento é tratado pela classe Pagamento. Os clientes realizam pagamentos no sistema, e essas transações são vinculadas aos respectivos hostels, garantindo uma integração eficiente entre as operações financeiras e a gestão de acomodações.
